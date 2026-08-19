@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Variables de entorno / secretos
+.env
+*.env.local
+
+# Datos (ajusta según tu proyecto; nunca subas datos sensibles o pesados)
+data/raw/
+*.csv
+*.xlsx
+!data/sample/*.csv
+
+# Outputs generados
+outputs/
+*.log
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
