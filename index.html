@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>empleabilidad-github</title>
+<style>
+  :root {
+    --azul: #0051FA;
+    --azul-oscuro: #001C59;
+    --rojo: #E82052;
+    --gris-claro: #F0F3F7;
+    --texto: #1a1a2e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    color: var(--texto);
+    background: #ffffff;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, var(--azul-oscuro), var(--azul));
+    color: #fff;
+    padding: 80px 24px 64px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 12px;
+  }
+  header p {
+    font-size: 1.15rem;
+    max-width: 640px;
+    margin: 0 auto;
+    opacity: 0.92;
+  }
+  .badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+  }
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 56px 24px;
+  }
+  section { margin-bottom: 48px; }
+  h2 {
+    color: var(--azul-oscuro);
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+    border-bottom: 3px solid var(--rojo);
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+  .placeholder {
+    background: var(--gris-claro);
+    border-left: 4px solid var(--azul);
+    padding: 16px 20px;
+    border-radius: 6px;
+    color: #445;
+    font-style: italic;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 16px;
+  }
+  .card {
+    background: var(--gris-claro);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .card h3 {
+    color: var(--azul-oscuro);
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  .cta {
+    text-align: center;
+    padding: 48px 24px;
+    background: var(--gris-claro);
+  }
+  .cta a {
+    display: inline-block;
+    background: var(--rojo);
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 8px;
+  }
+  .cta a.secondary {
+    background: transparent;
+    border: 2px solid var(--azul-oscuro);
+    color: var(--azul-oscuro);
+  }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: #778;
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="badge">Plantilla · Módulo Documentación de Proyectos en GitHub con IA</span>
+  <h1>empleabilidad-github</h1>
+  <p>[Descripción de 1-2 líneas: qué problema resuelve este proyecto y para quién. Reemplaza este texto con tu propuesta de valor real.]</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>El problema</h2>
+    <p class="placeholder">[Describe en 2-3 líneas la situación real que motivó este proyecto. Ejemplo: "Los egresados no tenían forma de saber qué tan alineado estaba su perfil con las vacantes reales del mercado."]</p>
+  </section>
+
+  <section>
+    <h2>Cómo funciona</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>1. [Paso o módulo]</h3>
+        <p>[Breve explicación]</p>
+      </div>
+      <div class="card">
+        <h3>2. [Paso o módulo]</h3>
+        <p>[Breve explicación]</p>
+      </div>
+      <div class="card">
+        <h3>3. [Paso o módulo]</h3>
+        <p>[Breve explicación]</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Resultados</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>[Métrica 1]</h3>
+        <p>[Ej. "Redujo el tiempo de análisis de X a Y"]</p>
+      </div>
+      <div class="card">
+        <h3>[Métrica 2]</h3>
+        <p>[Ej. "Identificó Z vacantes relevantes por semana"]</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Demo / Capturas</h2>
+    <p class="placeholder">[Inserta aquí una captura, GIF o video embebido del proyecto en acción.]</p>
+  </section>
+
+</main>
+
+<div class="cta">
+  <a href="https://github.com/Cuica20/empleabilidad-github">Ver código en GitHub</a>
+  <a class="secondary" href="https://github.com/Cuica20/empleabilidad-github/blob/main/docs/historia-proyecto.md">Leer historia del proyecto</a>
+</div>
+
+<footer>
+  Página generada con asistencia de IA (Claude) como parte del módulo "Documentación de Proyectos en GitHub con IA" — datascience.pe
+</footer>
+
+</body>
+</html>
